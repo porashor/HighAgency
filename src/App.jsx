@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
 
 const App = () => {
   return (
-    <div className='bg-green-500'>
-      this is a app process 
+    <div className=''>
+      <Navbar/>
     </div>
   )
 }
