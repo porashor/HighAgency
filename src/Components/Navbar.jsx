@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { navData, NavIcon, phone } from '../Data/dataAll'
 import { MdMenu } from 'react-icons/md'
 import { FaX } from 'react-icons/fa6'
-
+import {Parallax} from "react-parallax"
 const Navbar = () => {
     const [manu, setMenu] = useState(false)
   return (
@@ -44,6 +44,7 @@ const Navbar = () => {
                 <div className='md:hidden text-2xl'>
                     {manu ? <MdMenu onClick={()=>setMenu(false)}/> : <FaX onClick={()=>setMenu(true)}/> }
                 </div>
+                {/* pop nav */}
                 <div className={`w-fit h-fit  bg-black/70 backdrop-blur-lg absolute top-[80px] right-[50px] rounded-md ${manu? "hidden": "block md:hidden"}`}>
                 {/* top header icon nav */}
                 <div className='flex gap-2 px-6 py-3'>
