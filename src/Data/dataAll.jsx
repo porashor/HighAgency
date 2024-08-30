@@ -71,3 +71,34 @@ export const bannerData = [
         image: image3
     },
 ]
+
+
+import { LiaLightbulbSolid } from 'react-icons/lia'
+
+export const advance = [
+    {
+        name: "inovation",
+        details: "We are a inovative company that is discover a lots of gadject",
+        icon: <LiaLightbulbSolid/>
+    },
+    {
+        name: "quality",
+        details: "Quality is our best goal. We provides the best products to you.",
+        icon: <LiaLightbulbSolid/>
+    },
+    {
+        name: "experience",
+        details: "Our experience team member help you to use the uses of the products",
+        icon: <LiaLightbulbSolid/>
+    },
+    {
+        name: "happy client",
+        details: "We want to make our clients happy and provides all data all",
+        icon: <LiaLightbulbSolid/>
+    },
+    {
+        name: "support",
+        details: "Our supporting team is always ready for you and your problems",
+        icon: <LiaLightbulbSolid/>
+    },
+] 
