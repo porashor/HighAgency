@@ -59,7 +59,7 @@ const Navbar = () => {
                         <div key={index} className='group'><a href={item.link} className='text-xs lg:text-xl'>{item.name}</a><div className='w-full h-[4px]  bg-white/0 transition-all duration-300 group-hover:bg-[#99dd2c] '></div></div>
                     ))}
                 </div>
-                </div>
+                </div>      
                 </div>
             </div>
         </div>

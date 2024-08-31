@@ -35,7 +35,7 @@ export const navData = [
 
 export const phone = ["+880140*****","+8801873*****"]
 
-import { BsFacebook, BsLinkedin, BsYoutube } from "react-icons/bs"
+import { BsChat, BsClock, BsFacebook, BsLinkedin, BsPeople, BsYoutube } from "react-icons/bs"
 import { BsTwitter } from "react-icons/bs"
 import { FaGooglePlus } from "react-icons/fa"
 
@@ -74,6 +74,7 @@ export const bannerData = [
 
 
 import { LiaLightbulbSolid } from 'react-icons/lia'
+import { GrLike } from "react-icons/gr"
 
 export const advance = [
     {
@@ -84,21 +85,21 @@ export const advance = [
     {
         name: "quality",
         details: "Quality is our best goal. We provides the best products to you.",
-        icon: <LiaLightbulbSolid/>
+        icon: <GrLike/>
     },
     {
         name: "experience",
         details: "Our experience team member help you to use the uses of the products",
-        icon: <LiaLightbulbSolid/>
+        icon: <BsClock/>
     },
     {
         name: "happy client",
         details: "We want to make our clients happy and provides all data all",
-        icon: <LiaLightbulbSolid/>
+        icon: <BsPeople/>
     },
     {
         name: "support",
         details: "Our supporting team is always ready for you and your problems",
-        icon: <LiaLightbulbSolid/>
+        icon: <BsChat/>
     },
 ] 

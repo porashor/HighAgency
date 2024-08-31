@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from 'react-slick';
 import { bannerData } from '../Data/dataAll';
 import Dhl from "../assets/banner/image2.jpg"
+import Button from './Button';
 
 
 
@@ -26,7 +27,8 @@ const Hero = () => {
                         <div className='text-center text-white text-shadow-lg space-y-4'>
                           <div className='text-shadow-lg text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold '>{item.title}</div>
                           <div className='text-xl text-slate-200'>{item.details}</div>
-                          <button className='text-xl font-semibold bg-green-400 rounded-md px-3 py-1'>{item.btnText}</button>
+                          {/* button section */}
+                          <Button>{item.btnText}</Button>
                         </div>
                       </div>
                     </div>
