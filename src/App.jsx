@@ -5,6 +5,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Advantages from './Components/Advantages';
 import Services from './Components/Services';
+import About from './Components/About';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <Advantages/>
+      <About/>
       <Services/>
     </div>
   )

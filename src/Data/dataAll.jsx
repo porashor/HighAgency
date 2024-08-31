@@ -103,3 +103,29 @@ export const advance = [
         icon: <BsChat/>
     },
 ] 
+
+
+
+
+export const serviceData = [
+    {
+        name: "web design",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente aperiam eaque eveniet hic",
+        btn: "read more"
+    },
+    {
+        name: "graphic design",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente aperiam eaque eveniet hic",
+        btn: "read more"
+    },
+    {
+        name: "branding",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente aperiam eaque eveniet hic",
+        btn: "read more"
+    },
+    {
+        name: "marketing",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente aperiam eaque eveniet hic",
+        btn: "read more"
+    },
+]
