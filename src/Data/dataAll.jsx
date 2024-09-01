@@ -252,3 +252,24 @@ export const progress = [
         img: pro6
     },
 ]
+
+
+
+export const people =[
+    {
+        title: "john doe",
+        details: "Lorem ipsum dolor sit nte aperiam eaque eveniet hic, enim undeLorem ipsum dolor sit nte aperiam eaque eveniet hic, enim undeLorem ipsum dolor sit nte aperiam eaque eveniet hic, enim unde"
+    },
+    {
+        title: "john doe",
+        details: "Lorem ipsum dolor sit nte aperiam eaque eveniet hic, enim undeLorem ipsum dolor sit nte aperiam eaque eveniet hic, enim undeLorem ipsum dolor sit nte aperiam eaque eveniet hic, enim unde"
+    },
+    {
+        title: "john doe",
+        details: "Lorem ipsum dolor sit nte aperiam eaque eveniet hic, enim undeLorem ipsum dolor sit nte aperiam eaque eveniet hic, enim undeLorem ipsum dolor sit nte aperiam eaque eveniet hic, enim unde"
+    },
+    {
+        title: "john doe",
+        details: "Lorem ipsum dolor sit nte aperiam eaque eveniet hic, enim undeLorem ipsum dolor sit nte aperiam eaque eveniet hic, enim undeLorem ipsum dolor sit nte aperiam eaque eveniet hic, enim unde"
+    },
+]

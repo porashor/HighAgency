@@ -8,6 +8,7 @@ import Services from './Components/Services';
 import About from './Components/About';
 import Portfolio from './Components/Portfolio';
 import Progress from './Components/Progress';
+import People from './Components/People';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Services/>
       <Portfolio/>
       <Progress/>
+      <People/>
     </div>
   )
 }
