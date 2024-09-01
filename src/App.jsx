@@ -6,6 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Advantages from './Components/Advantages';
 import Services from './Components/Services';
 import About from './Components/About';
+import Portfolio from './Components/Portfolio';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Advantages/>
       <About/>
       <Services/>
+      <Portfolio/>
     </div>
   )
 }

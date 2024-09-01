@@ -129,3 +129,84 @@ export const serviceData = [
         btn: "read more"
     },
 ]
+
+
+export const portfolioNav = [
+    {
+        title: "web design",
+        link: "web"
+    },
+    {
+        title: "graphic design",
+        link: "graphic"
+    },
+    {
+        title: "branding",
+        link: "brand"
+    },
+    {
+        title: "logo",
+        link: "logo"
+    },
+    {
+        title: "marketing",
+        link: "marketing"
+    },
+    {
+        title: "advertisment",
+        link: "ad"
+    },
+]
+import por1 from "../assets/protfolio/image1.png"
+import por2 from "../assets/protfolio/image2.png"
+import por3 from "../assets/protfolio/image3.png"
+import por4 from "../assets/protfolio/image4.png"
+import por5 from "../assets/protfolio/image5.png"
+import por6 from "../assets/protfolio/image6.png"
+import por7 from "../assets/protfolio/image7.png"
+import por8 from "../assets/protfolio/image8.png"
+import por9 from "../assets/protfolio/image9.png"
+import por10 from "../assets/protfolio/image10.png"
+
+export const portfolio = [
+    {
+        image: por1,
+        title: "horse"
+    },
+    {
+        image: por2,
+        title: "social"
+    },
+    {
+        image: por3,
+        title: "creative"
+    },
+    {
+        image: por4,
+        title: "success"
+    },
+    {
+        image: por5,
+        title: "rahino"
+    },
+    {
+        image: por6,
+        title: "growth"
+    },
+    {
+        image: por7,
+        title: "brain"
+    },
+    {
+        image: por8,
+        title: "lion"
+    },
+    {
+        image: por9,
+        title: "social"
+    },
+    {
+        image: por10,
+        title: "group"
+    },
+]

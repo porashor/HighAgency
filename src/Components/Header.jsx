@@ -8,7 +8,7 @@ const Header = ({first, sec, low}) => {
             <span>{first} </span><span className='text-green-300'>{sec}</span>
         </h1>
         {/* lower header */}
-        <div className={`text-center w-[60%] ${low ? "hidden" : "block"} mx-auto text-slate-600`}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt suscipit laborum accusamus hic voluptatum, repellat doloribus fuga reiciendis sequi quia sed tempora harum. Distinctio rem inventore de.</div>
+        <div className={`text-center w-[60%] ${low ? "hidden" : "block"} mx-auto text-slate-600 line-clamp-2`}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt suscipit laborum accusamus hic voluptatum, repellat doloribus fuga reiciendis sequi quia sed tempora harum. Distinctio rem inventore de.</div>
       </div>
   )
 }
