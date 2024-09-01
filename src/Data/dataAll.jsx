@@ -210,3 +210,45 @@ export const portfolio = [
         title: "group"
     },
 ]
+
+import pro1 from "../assets/progress/img1.png"
+import pro2 from "../assets/progress/img2.png"
+import pro3 from "../assets/progress/img3.png"
+import pro4 from "../assets/progress/img4.png"
+import pro5 from "../assets/progress/img5.png"
+import pro6 from "../assets/progress/img6.png"
+
+
+
+export const progress = [
+    {
+        title: "request call",
+        details: "Lorem ipsum dolor sit nte aperiam eaque eveniet hic, enim unde",
+        img: pro1
+    },
+    {
+        title: "consultation",
+        details: "Lorem ipsum dolor sit nte aperiam eaque eveniet hic, enim unde",
+        img: pro2
+    },
+    {
+        title: "planing",
+        details: "Lorem ipsum dolor sit nte aperiam eaque eveniet hic, enim unde",
+        img: pro3
+    },
+    {
+        title: "working progress",
+        details: "Lorem ipsum dolor sit nte aperiam eaque eveniet hic, enim unde",
+        img: pro4
+    },
+    {
+        title: "correcting",
+        details: "Lorem ipsum dolor sit nte aperiam eaque eveniet hic, enim unde",
+        img: pro5
+    },
+    {
+        title: "deliver",
+        details: "Lorem ipsum dolor sit nte aperiam eaque eveniet hic, enim unde",
+        img: pro6
+    },
+]

@@ -7,6 +7,7 @@ import Advantages from './Components/Advantages';
 import Services from './Components/Services';
 import About from './Components/About';
 import Portfolio from './Components/Portfolio';
+import Progress from './Components/Progress';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <About/>
       <Services/>
       <Portfolio/>
+      <Progress/>
     </div>
   )
 }
