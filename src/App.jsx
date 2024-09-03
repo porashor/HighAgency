@@ -9,6 +9,10 @@ import About from './Components/About';
 import Portfolio from './Components/Portfolio';
 import Progress from './Components/Progress';
 import People from './Components/People';
+import Skill from './Components/Skill';
+import 'chart.js/auto';
+import DoughnutChart from "../src/Components/Dog"
+
 
 const App = () => {
   return (
@@ -21,6 +25,7 @@ const App = () => {
       <Portfolio/>
       <Progress/>
       <People/>
+      <Skill/>
     </div>
   )
 }
