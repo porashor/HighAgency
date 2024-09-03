@@ -15,10 +15,10 @@ const Skill = () => {
         <Header first={"our"} sec={"skills "}/>
         {/* main body of skills  */}
         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 items-center  justify-center gap-3 '>
-          <Dog color={"#00a"} per={"45%"} title={"Coding"} value={45} resV={55}/>
-          <Dog color={"#f0a"} per={"60%"} title={"seo and ads"} value={60} resV={40}/>
-          <Dog color={"#ffa"} per={"75%"} title={"branding"} value={75} resV={25}/>
-          <Dog color={"#0f5"} per={"80%"} title={"web design"} value={80} resV={20}/>
+          <Dog color={"#00a"}  title={"Coding"} value={45}/>
+          <Dog color={"#f0a"}  title={"seo and ads"} value={60} />
+          <Dog color={"#ffa"}  title={"branding"} value={75} />
+          <Dog color={"#0f5"}  title={"web design"} value={80} />
         </div>
       </div>
     </div>

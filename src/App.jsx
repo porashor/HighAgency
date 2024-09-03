@@ -12,6 +12,7 @@ import People from './Components/People';
 import Skill from './Components/Skill';
 import 'chart.js/auto';
 import DoughnutChart from "../src/Components/Dog"
+import FormSec from './Components/FormSec';
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
       <Progress/>
       <People/>
       <Skill/>
+      <FormSec/>
     </div>
   )
 }

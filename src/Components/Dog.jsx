@@ -1,15 +1,16 @@
 import React from 'react'
 import { Doughnut } from 'react-chartjs-2'
 
-const Dog = ({color, title, value, resV, per}) => {
-  console.log(color)
+const Dog = ({color, title, value}) => {
+  const res = 100 - value
+  const pe = value + "%"
   const data = {
     labels: ["rest", title],
     datasets: [
       {
         label: "coding",
         backgroundColor: ["#aaa", color],
-        data: [resV,value]
+        data: [res,value]
       }
     ]
   }
@@ -31,9 +32,9 @@ const Dog = ({color, title, value, resV, per}) => {
   return (
     <div style={{ width: '300px', margin: '0 auto' }}>
       <Doughnut data={data} options={options} />
-      <div style={{ textAlign: 'center', marginTop: '10px' }}>
-        <strong>{per}</strong>
-        <div>{title}</div>
+      <div className='text-center py-1'>
+        <div className='text-2xl -translate-y-[170px] font-bold'>{pe}</div>
+        <div className='text-xl uppercase font-semibold'>{title}</div>
       </div>
     </div>
   )
