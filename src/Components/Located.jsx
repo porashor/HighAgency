@@ -1,28 +1,14 @@
 import React, { useEffect, useState } from 'react'
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import Header from './Header';
 import { BiLocationPlus, BiMessage, BiPhone } from 'react-icons/bi';
 import { DiVim } from 'react-icons/di';
-
+import { RPN } from '../Data/dataAll';
 
 const Located = () => {
     const [wid, setWid] = useState((window.innerWidth/100) * 80)
     const [hid, setHid] = useState((window.innerHeight/100) * 80)
     const LN = ["bangladesh", "india", "Pakistan"]
-    const RPN = [
-        {
-            number: "88010******",
-            icon:<BiPhone/>
-        },
-        {
-            number: "88013234232*",
-            icon:<BiPhone/>
-        },
-        {
-            number: "info@asdf.das",
-            icon: <BiMessage/>
-        },
-    ]
+    
     useEffect(()=>{
         const mainWidth = (window.innerWidth/100) * 90
         const mainHight = (window.innerHeight/100) * 80

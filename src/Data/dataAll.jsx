@@ -272,4 +272,20 @@ export const people =[
         title: "john doe",
         details: "Lorem ipsum dolor sit nte aperiam eaque eveniet hic, enim undeLorem ipsum dolor sit nte aperiam eaque eveniet hic, enim undeLorem ipsum dolor sit nte aperiam eaque eveniet hic, enim unde"
     },
+];
+
+import { BiLocationPlus, BiMessage, BiPhone } from 'react-icons/bi';
+export const RPN = [
+    {
+        number: "88010******",
+        icon:<BiPhone/>
+    },
+    {
+        number: "88013234232*",
+        icon:<BiPhone/>
+    },
+    {
+        number: "info@asdf.das",
+        icon: <BiMessage/>
+    },
 ]

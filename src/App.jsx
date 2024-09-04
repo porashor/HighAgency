@@ -11,9 +11,9 @@ import Progress from './Components/Progress';
 import People from './Components/People';
 import Skill from './Components/Skill';
 import 'chart.js/auto';
-import DoughnutChart from "../src/Components/Dog"
 import FormSec from './Components/FormSec';
 import Located from './Components/Located';
+import Foother from './Components/Foother';
 
 
 const App = () => {
@@ -30,6 +30,7 @@ const App = () => {
       <Skill/>
       <FormSec/>
       <Located/>
+      <Foother/>
     </div>
   )
 }
