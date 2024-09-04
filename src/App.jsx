@@ -13,6 +13,7 @@ import Skill from './Components/Skill';
 import 'chart.js/auto';
 import DoughnutChart from "../src/Components/Dog"
 import FormSec from './Components/FormSec';
+import Located from './Components/Located';
 
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
       <People/>
       <Skill/>
       <FormSec/>
+      <Located/>
     </div>
   )
 }
